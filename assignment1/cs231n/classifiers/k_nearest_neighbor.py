@@ -166,7 +166,7 @@ class KNearestNeighbor(object):
       # Store this label in y_pred[i]. Break ties by choosing the smaller     #
       # label.                                                                #
       #########################################################################
-      y_pred[i] = Counter(closest_y).most_common(1)[0][0];
+      y_pred[i] = Counter(closest_y).most_common(1)[0][0]
       #########################################################################
       #                           END OF YOUR CODE                            # 
       #########################################################################
